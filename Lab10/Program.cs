@@ -10,12 +10,12 @@ namespace Lab10
     {
         static void Main(string[] args)
         {
-            Angle tupoy = new Angle(120,-13,-8);
-            Console.WriteLine("Угол: {0} градусов, {1} минут, {2} секунд.", tupoy.Gradus, tupoy.Min, tupoy.Sec);
-            tupoy.ToRadians();
-            Angle pryamoy = new Angle(90);
-            Console.WriteLine("Угол: {0} градусов, {1} минут, {2} секунд.", pryamoy.Gradus, pryamoy.Min, pryamoy.Sec);
-            pryamoy.ToRadians();
+            Angle obtuse = new Angle(120,13,8);
+            Console.WriteLine("Угол: {0} градусов, {1} минут, {2} секунд.", obtuse.Gradus, obtuse.Min, obtuse.Sec);
+            obtuse.ToRadians();
+            Angle right = new Angle(90);
+            Console.WriteLine("Угол: {0} градусов, {1} минут, {2} секунд.", right.Gradus, right.Min, right.Sec);
+            right.ToRadians();
             Console.ReadKey();
         }
     }
